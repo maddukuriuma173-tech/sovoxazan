@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 left-0 w-full bg-white shadow-md z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+
+            <!-- Logo -->
+            <a href="#home" class="flex items-center space-x-2">
+                <div class="bg-orange-500 text-white font-bold px-3 py-1 rounded-lg">
+                    SV
+                </div>
+                <span class="text-xl font-bold text-gray-800">
+                    Sovoxazen
+                </span>
+            </a>
+
+            <!-- Desktop Links -->
+            <div class="hidden md:flex space-x-8 font-medium text-gray-600">
+                <a href="#sectionhomepage" class="hover:text-orange-500">Home</a>
+                <a href="#products" class="hover:text-orange-500">Products</a>
+                <a href="#categories" class="hover:text-orange-500">Categories</a>
+                <a href="#about" class="hover:text-orange-500">About</a>
+                <a href="#pricing" class="hover:text-orange-500">Pricing</a>
+            </div>
+
+            <!-- Icons -->
+            <div class="hidden md:flex items-center space-x-4">
+                <!-- Shield -->
+                <!--  /   --><a class="ml-auto ca">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-shield " viewBox="0 0 16 16">
+                        <path d="M5.338 1.59a61 61 0 0 0-2.837.856.48.48 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.7 10.7 0 0 0 2.287 2.233c.346.244.652.42.893.533q.18.085.293.118a1 1 0 0 0 .101.025 1 1 0 0 0 .1-.025q.114-.034.294-.118c.24-.113.547-.29.893-.533a10.7 10.7 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.8 11.8 0 0 1-2.517 2.453 7 7 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7 7 0 0 1-1.048-.625 11.8 11.8 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 63 63 0 0 1 5.072.56" />
+                    </svg></a><a class="ca">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart2 " viewBox="0 0 16 16">
+                        <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0" />
+                    </svg></a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button id="menu-btn" class="md:hidden text-2xl">
+                ☰
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white px-6 pb-4">
+            <a href="#sectionhomepage" class="block py-2 hover:text-orange-500">Home</a>
+            <a href="#sectionfoodpage" class="block py-2 hover:text-orange-500">Food</a>
+            <a href="#sectioncoursespage" class="block py-2 hover:text-orange-500">Courses</a>
+            <a href="#sectionwhychooseuspage" class="block py-2 hover:text-orange-500">Why Choose Us?</a>
+            <a href="#sectionpricingpage" class="block py-2 hover:text-orange-500">Pricing</a>
+            <a href="#sectionaboutuspage" class="block py-2 hover:text-orange-500">About Us</a>
+        </div>
+    </nav>
+
+
+
+    <div id="sectionhomepage">
+        <div class="bg mt-5">
+            <div class="b1 mt-5">
+                <p>&#9889; Up to 70% OFF on Selected Items</p>
+            </div>
+            <h1 class="h1 pt-2">Quality Products,</h1>
+            <h1 class="h2">Affordable Prices</h1>
+            <p class="p1">Shop thousands of products across multiple categories. From daily essentials to special items, everything you need at prices you can afford.</p>
+            <div>
+                <div class="search-container mt-4">
+                    <input type="text" placeholder="Search for products, brands, and more..." />
+                    <button class="button1" type="submit">Search</button>
+                </div>
+            </div>
+            <div class="d-flex flex-row">
+                <div class="d-flex flex-row mr-5">
+                    <div class="box1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shield s" viewBox="0 0 16 16">
+                            <path d="M5.338 1.59a61 61 0 0 0-2.837.856.48.48 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.7 10.7 0 0 0 2.287 2.233c.346.244.652.42.893.533q.18.085.293.118a1 1 0 0 0 .101.025 1 1 0 0 0 .1-.025q.114-.034.294-.118c.24-.113.547-.29.893-.533a10.7 10.7 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.8 11.8 0 0 1-2.517 2.453 7 7 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7 7 0 0 1-1.048-.625 11.8 11.8 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 63 63 0 0 1 5.072.56" />
+                        </svg>
+                    </div>
+                    <div class="mt-4 pl-3">
+                        <p class="p2">Secure</p>
+                        <p class="p3">100% Safe</p>
+
+                    </div>
+                </div>
+                <div class="d-flex flex-row ml-5 mr-5">
+                    <div class="box2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-truck s2" viewBox="0 0 16 16">
+                            <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                        </svg>
+                    </div>
+                    <div class="mt-4 pl-3">
+                        <p class="p2">Fast</p>
+                        <p class="p3">Quick Delivery</p>
+
+                    </div>
+                </div>
+                <div class="d-flex flex-row ml-5 mr-5">
+                    <div class="box3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-graph-up-arrow s3" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M0 0h1v15h15v1H0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5" />
+                        </svg>
+                    </div>
+                    <div class="mt-4 pl-3">
+                        <p class="p2">Quality</p>
+                        <p class="p3">Best Prices</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="ab">
+                <div class="boxa">
+
+                </div>
+            </div>
+        </div>
+        <!--mini card section to explore in effective way makes simple and looks good-->
+        <div class="bg-[#FFFCEF] h-[220vh] w-[100vw] text-center p-[60px]">
+            <h1 class="text-[Black] font-bold text-[42px] pb-[25px]">Shop by Category</h1>
+            <p class="text-[grey] text-[22px]">Explore our wide range of affordable products</p>
+            <div class="container">
+                <div class="row grid gap-[20px]  mt-[50px]">
+                    <div class="col-4">
+                        <div class="bg-[#FDF2F8] h-[25vh] w-[40vw] rounded-[25px] p-[20px]">
+                            <img src="https://res.cloudinary.com/dyhnr3npy/image/upload/Screenshot_2025-12-19_140715_yhnv43.png" class="h-[65px] w-[65px] m-auto rounded-[10px] " />
+                            <p class="text-[black] text-[19px] pt-[10px]">Clothing</p>
+                            <p class="text-[grey]">2,500+ items</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="bg-[#EFF6FF] h-[25vh] w-[40vw] rounded-[25px] p-[20px]">
+                            <img src="https://res.cloudinary.com/dyhnr3npy/image/upload/c_crop,h_120/v1766134611/Screenshot_2025-12-19_142619_zhj8hj.png" class="h-[65px] w-[65px] m-auto rounded-[10px] " />
+                            <p class="text-[black] text-[19px] pt-[10px]">Electronics</p>
+                            <p class="text-[grey]">1,800+ items</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="bg-[#FAF5FF] h-[25vh] w-[40vw] rounded-[25px] p-[20px]">
+                            <img src="https://res.cloudinary.com/dyhnr3npy/image/upload/Screenshot_2025-12-19_143040_q3qshq.png" class="h-[65px] w-[65px] m-auto rounded-[10px] " />
+                            <p class="text-[black] text-[19px] pt-[10px]">Accessories</p>
+                            <p class="text-[grey]">3,200+ items</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="bg-[#F0FDF4] h-[25vh] w-[40vw] rounded-[25px] p-[20px]">
+                            <img src="https://res.cloudinary.com/dyhnr3npy/image/upload/Screenshot_2025-12-19_143344_ec1orz.png" class="h-[65px] w-[65px] m-auto rounded-[10px] " />
+                            <p class="text-[black] text-[19px] pt-[10px]">Medicines</p>
+                            <p class="text-[grey]">850+ items</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="bg-[#FFF7ED] h-[25vh] w-[40vw] rounded-[25px] p-[20px]">
+                            <img src="https://res.cloudinary.com/dyhnr3npy/image/upload/Screenshot_2025-12-19_143652_n2b0xm.png" class="h-[65px] w-[65px] m-auto rounded-[10px] " />
+                            <p class="text-[black] text-[19px] pt-[10px]">Groceries</p>
+                            <p class="text-[grey]">5,000+ items</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="bg-[#F0FDFA] h-[25vh] w-[40vw] rounded-[25px] p-[20px]">
+                            <img src="https://res.cloudinary.com/dyhnr3npy/image/upload/Screenshot_2025-12-19_144020_e2qtzs.png" class="h-[65px] w-[65px] m-auto rounded-[10px] " />
+                            <p class="text-[black] text-[19px] pt-[10px]">Home Essentials</p>
+                            <p class="text-[grey]">1,200+ items</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--broad width to display our policies-->
+        <div class="flex flex-row bw h-[15vh] w-[100vw]">
+            <div class="flex p-[10px]">
+                <div class="bg-[#F5AE3C] h-[50px] w-[50px] rounded-[10px] p-auto">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="m-auto mt-[5px] bi bi-shield-check pt-[10px]" viewBox="0 0 16 16">
+                        <path d="M5.338 1.59a61 61 0 0 0-2.837.856.48.48 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.7 10.7 0 0 0 2.287 2.233c.346.244.652.42.893.533q.18.085.293.118a1 1 0 0 0 .101.025 1 1 0 0 0 .1-.025q.114-.034.294-.118c.24-.113.547-.29.893-.533a10.7 10.7 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.8 11.8 0 0 1-2.517 2.453 7 7 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7 7 0 0 1-1.048-.625 11.8 11.8 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 63 63 0 0 1 5.072.56" />
+                        <path d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0" />
+                    </svg>
+                </div>
+                <div class="pl-[10px] text-[white] text-[16px]">
+                    <p>100% Secure</p>
+                    <p class="text-[#F2EFEF] text-[15px] font-normal">Safe Shopping</p>
+                </div>
+            </div>
+            <div class="flex p-[10px]">
+                <div class="bg-[#F5A13C] h-[50px] w-[50px] rounded-[10px] p-auto">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="m-auto pt-[10px] mt-[5px] bi bi-truck" viewBox="0 0 16 16">
+                        <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                    </svg>
+                </div>
+                <div class="pl-[10px] text-[white] text-[16px]">
+                    <p>Fast Delivery</p>
+                    <p class="text-[#F2EFEF] text-[15px] font-normal">2-3 Days</p>
+                </div>
+            </div>
+            <div class="flex p-[10px]">
+                <div class="bg-[#F2933C] h-[50px] w-[50px] rounded-[10px] p-auto">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="m-auto pt-[10px] mt-[5px] bi bi-arrow-repeat" viewBox="0 0 16 16">
+                        <path d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41m-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9" />
+                        <path fill-rule="evenodd" d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5 5 0 0 0 8 3M3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9z" />
+                    </svg>
+                </div>
+                <div class="pl-[10px] text-[white] text-[16px]">
+                    <p>Easy Returns</p>
+                    <p class="text-[#F2EFEF] text-[15px] font-normal">7 Days</p>
+                </div>
+            </div>
+            <div class="flex p-[10px]">
+                <div class="bg-[#F2933C] h-[50px] w-[50px] rounded-[10px] p-auto">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="m-auto pt-[10px] mt-[5px] bi bi-graph-up-arrow" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M0 0h1v15h15v1H0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5" />
+                    </svg>
+                </div>
+                <div class="pl-[10px] text-[white] text-[16px]">
+                    <p>Best Prices</p>
+                    <p class="text-[#F2EFEF] text-[15px] font-normal">Guranteed</p>
+                </div>
+            </div>
+
+        </div>
+        <!--Main container of Cards of some items-->
+        <div class="bg-[white] h-[400vh] w-[100vw] text-center p-[40px]">
+            <p class="bg-[#FEF3C7] text-[#A75A16] h-[50px] w-[160px] p-[10px] font-bold rounded-[25px] m-auto">✨ Featured Deals</p>
+            <h1 class="text-[black] font-bold text-[42px] mt-[10px]">Today's Special Offers</h1>
+            <p class="text-[grey] text-[18px] mt-[10px]">Handpicked products with amazing discounts</p>
+            <div class="grid gap-[30px] mt-[40px]">
+                <div class="bg-[white] rounded-[15px] h-[80vh] w-[45vw] shadow">
+                    <div class="flex flex-row mm p-[10px]">
+                        <p class="mr-auto bg-[#EF4444] h-[23px] w-[90px] text-[14px] rounded-[4px] text-[white] font-bold p-[1px]">20% OFF</p>
+                        <p class="ml-auto bg-[#F59E0B] h-[23px] w-[90px] text-[14px] rounded-[4px] text-[white] font-bold p-[1px]">Featured</p>
+                    </div>
+                    <div class="p-[20px] text-left">
+                        <p class="text-[#EF4444]">CLOTHING</p>
+                        <p class="hover:text-[#EF4444]">Classic Cotton T-Shirt</p>
+                        <p>Comfortable cotton t-shirt for everyday wear.</p>
+                        <h1 class="font-bold text-[32px]">₹ 338</h1>
+                        <p class="h-[6px]">⭐⭐⭐⭐⭐ </p>
+                        <p class="text-[green] mt-[20px]">In Stock</p>
+                    </div>
+                </div>
+                <div class="bg-[white] rounded-[15px] h-[80vh] w-[45vw] shadow">
+                    <div class="flex flex-row mm1 p-[10px]">
+                        <p class="mr-auto bg-[#EF4444] h-[23px] w-[90px] text-[14px] rounded-[4px] text-[white] font-bold p-[1px]">20% OFF</p>
+                        <p class="ml-auto bg-[#F59E0B] h-[23px] w-[90px] text-[14px] rounded-[4px] text-[white] font-bold p-[1px]">Featured</p>
+                    </div>
+                    <div class="p-[20px] text-left">
+                        <p class="text-[#EF4444]">ELECTRONICS</p>
+                        <p class="hover:text-[#EF4444]">Wireless Headphones</p>
+                        <p class="text-[grey]">High-quality wireless headphones with noise cancellation.</p>
+                        <h1 class="font-bold text-[32px]">₹ 199</h1>
+                        <p class="h-[6px]">⭐⭐⭐⭐⭐ </p>
+                        <p class="text-[green] mt-[20px]">In Stock</p>
+                    </div>
+                </div>
+                <div class="bg-[white] rounded-[15px] h-[80vh] w-[45vw] shadow">
+                    <div class="flex flex-row mm2 p-[10px]">
+                        <p class="mr-auto bg-[#EF4444] h-[23px] w-[90px] text-[14px] rounded-[4px] text-[white] font-bold p-[1px]">20% OFF</p>
+                        <p class="ml-auto bg-[#F59E0B] h-[23px] w-[90px] text-[14px] rounded-[4px] text-[white] font-bold p-[1px]">Featured</p>
+                    </div>
+                    <div class="p-[20px] text-left">
+                        <p class="text-[#EF4444]">HOME ESSENTIALS</p>
+                        <p class="hover:text-[#EF4444]">Bath Towel Set</p>
+                        <p class="text-[grey]">Soft and absorbent bath towel set.</p>
+                        <h1 class="font-bold text-[32px]">₹ 178</h1>
+                        <p class="h-[6px]">⭐⭐⭐⭐⭐ </p>
+                        <p class="text-[green] mt-[20px]">In Stock</p>
+                    </div>
+                </div>
+                <div class="bg-[white] rounded-[15px] h-[80vh] w-[45vw] shadow">
+                    <div class="flex flex-row mm3 p-[10px]">
+                        <p class="mr-auto bg-[#EF4444] h-[23px] w-[90px] text-[14px] rounded-[4px] text-[white] font-bold p-[1px]">20% OFF</p>
+                        <p class="ml-auto bg-[#F59E0B] h-[23px] w-[90px] text-[14px] rounded-[4px] text-[white] font-bold p-[1px]">Featured</p>
+                    </div>
+                    <div class="p-[20px] text-left">
+                        <p class="text-[#EF4444]">CLOTHING</p>
+                        <p class="hover:text-[#EF4444]">Vintage Denim Jacket</p>
+                        <p class="text-[grey]">Stylish denim jacket for all seasons.</p>
+                        <h1 class="font-bold text-[32px]">₹ 399</h1>
+                        <p class="h-[6px]">⭐⭐⭐⭐⭐ </p>
+                        <p class="text-[green] mt-[20px]">In Stock</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--All product part-->
+        <div class="bg-[#F9FAFB] h-[620vh] w-[100vw] p-[20px] text-center">
+            <div>
+                <h1 class="font-bold text-[32px]">All Products</h1>
+                <p class="text-[grey]">Discover thousands of quality products</p>
+            </div>
+            <div class="grid gap-[30px] mt-[40px]">
+                <div class="bg-[white] rounded-[15px] h-[80vh] w-[45vw] shadow">
+                    <div class="flex flex-row hh p-[10px]">
+                        <p class="mr-auto bg-[#EF4444] h-[23px] w-[90px] text-[14px] rounded-[4px] text-[white] font-bold p-[1px]">11% OFF</p>
+                    </div>
+                    <div class="p-[20px] text-left">
+                        <p class="text-[#EF4444]">ACCESSORIES</p>
+                        <p class="hover:text-[#EF4444]">Classic Wristwatch</p>
+                        <p class="text-[grey]">Elegant wristwatch with leather strap.</p>
+                        <h1 class="font-bold text-[32px]">₹ 100</h1>
+                        <p class="h-[6px]">⭐⭐⭐⭐⭐ </p>
+                        <p class="text-[green] mt-[20px]">In Stock</p>
+                    </div>
+                </div>
+                <div class="bg-[white] rounded-[15px] h-[80vh] w-[45vw] shadow">
+                    <div class="flex flex-row hh1 p-[10px]">
+                        <p class="mr-auto bg-[#EF4444] h-[23px] w-[90px] text-[14px] rounded-[4px] text-[white] font-bold p-[1px]">5% OFF</p>
+                    </div>
+                    <div class="p-[20px] text-left">
+                        <p class="text-[#EF4444]">MEDICINES</p>
+                        <p class="hover:text-[#EF4444]">First Aid Kit</p>
+                        <p class="text-[grey]">Essential first aid kit for home and travel.</p>
+                        <h1 class="font-bold text-[32px]">₹ 800</h1>
+                        <p class="h-[6px]">⭐⭐⭐⭐⭐ </p>
+                        <p class="text-[green] mt-[20px]">In Stock</p>
+                    </div>
+                </div>
+                <div class="bg-[white] rounded-[15px] h-[80vh] w-[45vw] shadow">
+                    <div class="flex flex-row hh2 p-[10px]">
+                        <p class="mr-auto bg-[#EF4444] h-[23px] w-[90px] text-[14px] rounded-[4px] text-[white] font-bold p-[1px]">30% OFF</p>
+                    </div>
+                    <div class="p-[20px] text-left">
+                        <p class="text-[#EF4444]">GROCERIES</p>
+                        <p class="hover:text-[#EF4444]">Fresh Organic Apples</p>
+                        <p class="text-[grey]">Organic fresh apples from local orchards.</p>
+                        <h1 class="font-bold text-[32px]">₹ 230</h1>
+                        <p class="h-[6px]">⭐⭐⭐⭐⭐ </p>
+                        <p class="text-[green] mt-[20px]">In Stock</p>
+                    </div>
+                </div>
+                <div class="bg-[white] rounded-[15px] h-[80vh] w-[45vw] shadow">
+                    <div class="flex flex-row hh3 p-[10px]">
+                        <p class="mr-auto bg-[#EF4444] h-[23px] w-[90px] text-[14px] rounded-[4px] text-[white] font-bold p-[1px]">30% OFF</p>
+                    </div>
+                    <div class="p-[20px] text-left">
+                        <p class="text-[#EF4444]">ELECTRONICS</p>
+                        <p class="hover:text-[#EF4444]">Bluetooth Speaker</p>
+                        <p class="text-[grey]">Portable bluetooth speaker with powerful bass.</p>
+                        <h1 class="font-bold text-[32px]">₹ 188</h1>
+                        <p class="h-[6px]">⭐⭐⭐⭐⭐ </p>
+                        <p class="text-[green] mt-[20px]">In Stock</p>
+                    </div>
+                </div>
+                <div class="bg-[white] rounded-[15px] h-[80vh] w-[45vw] shadow">
+                    <div class="flex flex-row hh4 p-[10px]">
+                        <p class="mr-auto bg-[#EF4444] h-[23px] w-[90px] text-[14px] rounded-[4px] text-[white] font-bold p-[1px]">30% OFF</p>
+                    </div>
+                    <div class="p-[20px] text-left">
+                        <p class="text-[#EF4444]">ACCESSORIES</p>
+                        <p class="hover:text-[#EF4444]">Aviator Sunglasses</p>
+                        <p class="text-[grey]">Trendy sunglasses with UV protection.</p>
+                        <h1 class="font-bold text-[32px]">₹ 90</h1>
+                        <p class="h-[6px]">⭐⭐⭐⭐⭐ </p>
+                        <p class="text-[green] mt-[20px]">In Stock</p>
+                    </div>
+                </div>
+                <div class="bg-[white] rounded-[15px] h-[80vh] w-[45vw] shadow">
+                    <div class="flex flex-row hh5 p-[10px]">
+                        <p class="mr-auto bg-[#EF4444] h-[23px] w-[90px] text-[14px] rounded-[4px] text-[white] font-bold p-[1px]">30% OFF</p>
+                    </div>
+                    <div class="p-[20px] text-left">
+                        <p class="text-[#EF4444]">GROCERIES</p>
+                        <p class="hover:text-[#EF4444]">Whole Grain Pasta</p>
+                        <p class="text-[grey]">Premium whole grain pasta.</p>
+                        <h1 class="font-bold text-[32px]">₹ 100</h1>
+                        <p class="h-[6px]">⭐⭐⭐⭐⭐ </p>
+                        <p class="text-[green] mt-[20px]">In Stock</p>
+                    </div>
+                </div>
+                <div class="bg-[white] rounded-[15px] h-[80vh] w-[45vw] shadow">
+                    <div class="flex flex-row hh6 p-[10px]">
+                        <p class="mr-auto bg-[#EF4444] h-[23px] w-[90px] text-[14px] rounded-[4px] text-[white] font-bold p-[1px]">30% OFF</p>
+                    </div>
+                    <div class="p-[20px] text-left">
+                        <p class="text-[#EF4444]">MEDICINES</p>
+                        <p class="hover:text-[#EF4444]">Daily Multivitamins</p>
+                        <p class="text-[grey]">Daily multivitamin supplements.</p>
+                        <h1 class="font-bold text-[32px]">₹ 250</h1>
+                        <p class="h-[6px]">⭐⭐⭐⭐⭐ </p>
+                        <p class="text-[green] mt-[20px]">In Stock</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- A footer begin mini end part of the page-->
+        <div class="bg-[white] h-[90vh] w-[100vw] text-center p-[60px]">
+            <h1 class="font-bold text-[30px]">Why Millions Trust Sovoxazen</h1>
+            <p class="text-[grey] text-[18px] mt-[10px]">Join our community of satisfied shoppers</p>
+            <div>
+                <div>
+                    <h1 class="text-[#D97706] font-bold text-[38px] mt-[50px]">5M+</h1>
+                    <p class="text-[grey] text-[18px] mt-[5px]">Happy Customers</p>
+                </div>
+                <div>
+                    <h1 class="text-[#D97706] font-bold text-[38px] mt-[50px]">50K+</h1>
+                    <p class="text-[grey] text-[18px] mt-[5px]">Products Available</p>
+                </div>
+                <div>
+                    <h1 class="text-[#D97706] font-bold text-[38px] mt-[50px]">99%</h1>
+                    <p class="text-[grey] text-[18px] mt-[5px]">Satisfaction Rate</p>
+                </div>
+            </div>
+        </div>
+        <!--footer the last part of the page-->
+        <div class="bg-[#111827] h-[125vh] w-[100vw] pt-[60px] p-[20px]">
+            <div class="box d-flex flex-row justify-content-start">SV <p class="text-[white] font-bold ml-[20px]">Sovoxazen</p>
+            </div>
+            <p class="text-[#9CA3AF] pt-[18px]">Your trusted marketplace for quality products at affordable prices.</p>
+            <div class="pt-[25px]">
+                <h1 class="text-[white] font-bold">Quick Links</h1>
+                <ul class="text-[#DBD9D9] pt-[16px]">
+                    <li class="pt-[10px] pb-[10px] hover:text-[#FAC66E]">Home</li>
+                    <li class="pb-[10px] hover:text-[#FAC66E]">Food</li>
+                    <li class="pb-[10px] hover:text-[#FAC66E]">Courses</li>
+                    <li class="pb-[10px] hover:text-[#FAC66E]">Why Choose Us?</li>
+                    <li class="pb-[10px] hover:text-[#FAC66E]">About Us</li>
+                    <li class="pb-[10px] hover:text-[#FAC66E]">Pricing</li>
+                </ul>
+            </div>
+            <div class="pt-[25px]">
+                <h1 class="text-[white] font-bold">Categories</h1>
+                <ul class="text-[#DBD9D9] pt-[16px]">
+                    <li class="pt-[10px] pb-[10px] hover:text-[#FAC66E]">Clothing</li>
+                    <li class="pb-[10px] hover:text-[#FAC66E]">Electronics</li>
+                    <li class="pb-[10px] hover:text-[#FAC66E]">Accessories</li>
+                    <li class="pb-[10px] hover:text-[#FAC66E]">Medicines</li>
+                </ul>
+            </div>
+            <div class="pt-[25px]">
+                <h1 class="text-[white] font-bold">Contact Us</h1>
+                <ul class="text-[#DBD9D9] pt-[16px]">
+                    <li class="pt-[10px] pb-[10px] hover:text-[#FAC66E]">123 Market Street, City</li>
+                    <li class="pb-[10px] hover:text-[#FAC66E]">+1-800-SOVOX</li>
+                    <li class="pb-[10px] hover:text-[#FAC66E]">support@sovoxazen.com</li>
+
+                </ul>
+            </div>
+        </div>
+        <!--END-->
+        <hr class="text-[#9CA3AF] w-[100vw]" />
+        <div class="bg-[#111827] h-[20vh] w-[100vw] p-[20px] text-center">
+            <p class="text-[#9CA3AF]">© 2024 Sovoxazen. All rights reserved.</p>
+        </div>
+        <div class="df d-flex flex-row ">
+            <div class="d-flex flex-row justify-content-start">
+                <p>&#128222; +1-800-SOVOX &#9993;</p>
+            </div>
+            <div class="d-flex flex-row justify-content-end ml-auto">
+                <p>Free Delivery on Orders Above $20</p>
+            </div>
+        </div>
+    </div>
+    <div id="sectionfoodpage">
+
+    </div>
+    <div id="sectioncoursespage"></div>
+    <div id="sectionwhychooseuspage"></div>
+    <div id="sectionaboutuspage"></div>
+    <div id="sectionpricingpage"></div>
+</body>
+
+</html>
