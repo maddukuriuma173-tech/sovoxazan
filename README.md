@@ -1,0 +1,1 @@
+Developed a responsive e-commerce marketplace web application with modern UI/UX, product listings, category-based browsing, authentication pages, and interactive shopping features using React.js, JavaScript, and CSS.
